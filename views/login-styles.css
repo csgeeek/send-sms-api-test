@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+    background: url(../images/bg.jpg);
+    /**background-color: aquamarine;**/
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.login-panel{
+    width:350px;
+    height: 400px;
+    background: rgb(135, 152, 156);
+    /*color:rgb(29, 24, 91);*/
+    top: 50%;
+    left: 48%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    
+    border-radius: 12px;
+    /* box-shadow: 10px 5px 5px rgb(160, 125, 125); */
+}
+
+h1{
+    margin: 0;
+    padding: 20px 20px 20px;
+    text-align: center;
+    font-size: 220px;
+}
+.login-panel {
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+.login-panel p{
+    font-size: 15px;
+}
+.login-panel input{
+    width: 75%;
+    margin-bottom: 20px;
+}
+.login-panel input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none; 
+    height: 40px;
+    color: rgb(24, 8, 8);
+    font-size: 15px;
+}
+.login-panel .btn {
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rgb(35, 128, 141);
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 9px;
+    transition: 0.5s;
+}
+.login-panel .btn:hover {
+    cursor: pointer;
+    background: rgb(26, 33, 25);
+    color: rgb(198, 190, 190);
+}
+
+.login-panel a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: blue;
+}
